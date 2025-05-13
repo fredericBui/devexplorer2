@@ -34,7 +34,7 @@
       "title": "Déployer un backend et sa base de données",
       "concept": "Déployer une application backend avec une base de données liée dans Docker",
       "resources": [
-        "https://hub.docker.com/repository/docker/fredericbui/friendevent_backend/general"
+        "https://hub.docker.com/r/fredericbui/friendevent_backend"
       ],
       "image_url": "https://placehold.co/400x400",
       "description": "Votre mission si vous l'acceptez, est de lancer l’image `friendevent_backend` avec sa base MySQL dans un environnement Docker."
@@ -43,8 +43,8 @@
       "title": "Déployer une infrastructure",
       "concept": "Déployer une architecture complète frontend + backend + base de données avec docker",
       "resources": [
-        "https://hub.docker.com/repository/docker/fredericbui/friendevent_backend/general",
-        "https://hub.docker.com/repository/docker/fredericbui/friendevent_frontend/general"
+        "https://hub.docker.com/r/fredericbui/friendevent_backend",
+        "https://hub.docker.com/r/fredericbui/friendevent_frontend"
       ],
       "image_url": "https://placehold.co/400x400",
       "description": "Votre mission si vous l'acceptez, est de déployer une stack complète avec `friendevent_backend`, sa base MySQL et le frontend."
