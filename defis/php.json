@@ -1,0 +1,110 @@
+{
+  "Niveau 0 - PHP scripting": [
+    {
+      "title": "Installer php et ses extensions",
+      "concept": "Comprendre l'installation de PHP et la configuration de l'environnement de développement",
+      "resources": ["https://www.php.net/manual/en/install.php"],
+      "image_url": "https://placehold.co/400x400",
+      "description": "Votre mission si vous l'acceptez, est d'installer PHP et toutes les extensions nécessaires pour faire tourner vos futurs projets."
+    },
+    {
+      "title": "Hello world",
+      "concept": "Découvrir la syntaxe de base de PHP et exécuter un script simple",
+      "resources": ["https://www.php.net/manual/en/tutorial.firstpage.php"],
+      "image_url": "https://placehold.co/400x400",
+      "description": "Votre mission si vous l'acceptez, est d'afficher votre premier message avec PHP : un simple Hello World dans votre terminal."
+    },
+    {
+      "title": "Installer composer et utiliser la librairie faker",
+      "concept": "Apprendre à gérer les dépendances en PHP avec Composer et utiliser des bibliothèques tierces",
+      "resources": ["https://fakerphp.org/"],
+      "image_url": "https://placehold.co/400x400",
+      "description": "Votre mission si vous l'acceptez, est d'installer Composer et de générer de fausses données avec la librairie Faker."
+    }
+  ],
+  "Niveau 1 - PHP & MySQL": [
+    {
+      "title": "Créer un script qui se connecte à une base de donnée MySQL",
+      "concept": "Apprendre à établir une connexion entre PHP et une base de données MySQL",
+      "resources": ["https://www.w3schools.com/php/php_mysql_connect.asp"],
+      "image_url": "https://placehold.co/400x400",
+      "description": "Votre mission si vous l'acceptez, est de connecter votre script PHP à une base de données MySQL avec succès."
+    },
+    {
+      "title": "Créer un script de migration de base de donnée",
+      "concept": "Automatiser la création de bases de données et de tables via des scripts PHP",
+      "resources": ["https://www.w3schools.com/mysql/mysql_create_table.asp"],
+      "image_url": "https://placehold.co/400x400",
+      "description": "Votre mission si vous l'acceptez, est de générer automatiquement une base de données avec une table `user` via un script PHP."
+    },
+    {
+      "title": "Créer un mini ORM",
+      "concept": "Mettre en place une abstraction pour manipuler les données sans écrire de requêtes SQL",
+      "resources": ["https://fr.wikipedia.org/wiki/Mapping_objet-relationnel"],
+      "image_url": "https://placehold.co/400x400",
+      "description": "Votre mission si vous l'acceptez, est de créer un mini ORM PHP capable de gérer les opérations CRUD en base."
+    }
+  ],
+  "Niveau 2 - PHP & HTML & MySQL": [
+    {
+      "title": "Afficher les produits de la base donnée \"store\"",
+      "concept": "Afficher dynamiquement des données issues d'une base MySQL dans une page HTML avec PHP",
+      "resources": ["https://github.com/votre-repository/store"],
+      "image_url": "https://placehold.co/400x400",
+      "description": "Votre mission si vous l'acceptez, est de récupérer et afficher la liste des produits de la base `store` sur une page HTML."
+    },
+    {
+      "title": "Créer un système de login / logout",
+      "concept": "Gérer l'authentification utilisateur et les sessions PHP",
+      "resources": ["https://www.w3schools.com/php/php_user_login.asp"],
+      "image_url": "https://placehold.co/400x400",
+      "description": "Votre mission si vous l'acceptez, est de mettre en place un système d'identification sécurisé avec login et logout."
+    },
+    {
+      "title": "Créer un système de routing",
+      "concept": "Organiser les URL et faire correspondre les routes aux contrôleurs",
+      "resources": ["https://medium.com/@gayanvirajith/php-routing-from-scratch-2070f4d54f2a"],
+      "image_url": "https://placehold.co/400x400",
+      "description": "Votre mission si vous l'acceptez, est de créer un routeur PHP qui associe chaque URL à une fonction précise."
+    }
+  ],
+  "Niveau 3 - PHP & Apache": [
+    {
+      "title": "Ajouter l'extension permettant à apache de comprendre des fichier php",
+      "concept": "Configurer Apache pour interpréter les scripts PHP côté serveur",
+      "resources": ["https://www.php.net/manual/en/install.apache2.php"],
+      "image_url": "https://placehold.co/400x400",
+      "description": "Votre mission si vous l'acceptez, est de configurer Apache pour exécuter correctement les fichiers `.php`."
+    }
+  ],
+  "Niveau 4 - Framework PHP Symfony": [
+    {
+      "title": "Créer un site vitrine",
+      "concept": "Structurer un site web statique avec Symfony en utilisant le système de templates",
+      "resources": ["https://symfony.com/doc/current/page_creation.html"],
+      "image_url": "https://placehold.co/400x400",
+      "description": "Votre mission si vous l'acceptez, est de créer un site vitrine avec Symfony et Twig."
+    },
+    {
+      "title": "Créer un CRM",
+      "concept": "Construire une application de gestion des relations client avec un framework MVC",
+      "resources": ["https://symfonycasts.com/screencast/symfony"],
+      "image_url": "https://placehold.co/400x400",
+      "description": "Votre mission si vous l'acceptez, est de concevoir un CRM complet en utilisant les bonnes pratiques Symfony."
+    },
+    {
+      "title": "Créer une API",
+      "concept": "Exposer des données sous forme d'API REST avec Symfony",
+      "resources": ["https://symfony.com/doc/current/api.html"],
+      "image_url": "https://placehold.co/400x400",
+      "description": "Votre mission si vous l'acceptez, est de développer une API RESTful avec Symfony pour exposer vos données."
+    },
+    {
+      "title": "Créer un site e-commerce",
+      "concept": "Développer une plateforme de vente en ligne complète avec gestion des produits et panier",
+      "resources": [],
+      "image_url": "https://placehold.co/400x400",
+      "description": "Votre mission si vous l'acceptez, est de mettre en place une boutique en ligne avec Symfony, du catalogue au panier."
+    }
+  ]
+}

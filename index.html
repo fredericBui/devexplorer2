@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>DevExplorer</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: monospace;
+        }
+
+        section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1em;
+        }
+
+        article{
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 1em;
+            display: grid;
+            width: 70%;
+            margin: auto;
+            grid-template-columns: 1fr 3fr;
+            gap: 1em;
+        }
+
+        li{
+            line-break: anywhere;
+        }
+
+        img {
+            width: 200px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>DevExplorer</h1>
+    <select name="" id="" onchange="getData(this)">
+        <option value="">Choisir un challenge</option>
+        <option value="php.json">PHP</option>
+        <option value="deploiement.json">Déploiement</option>
+    </select>
+    <div id="content"></div>
+    <script>
+
+        function getData(selectElement) {
+            fetch(`defis/${selectElement.value}`)
+                .then(response => response.json())
+                .then(data => {
+                    displayChallenge(data)
+                })
+                .catch(error => {
+                    console.error('Erreur lors du chargement du JSON :', error);
+                });
+        }
+
+        function displayChallenge(data) {
+            console.log(data);
+            content.innerHTML = "";
+            for (category in data) {
+                let section = document.createElement('section');
+                section.innerHTML += `<h2>${category}</h2>`
+                data[category].forEach(item => {
+                    section.innerHTML += `
+                        <article>
+                            <div>
+                                <img src=${item.image_url} />
+                            </div>
+                            <div>
+                                <h3>${item.title}</h3>
+                                <p>🕵️ ${item.description}</p>
+                                <p>🧠 ${item.concept}</p>
+                                <div>
+                                    <p>📚 Ressources :</p>
+                                    <ul>
+                                        ${item.resources.map(url => 
+                                            `<li>
+                                                <a href="${url}" target="_blank">${url}</a>
+                                            </li>`
+                                        ).join('')}
+                                    </ul>
+                                </div>
+                            </div>
+                        </article>
+                    `
+                    content.appendChild(section);
+                })
+            }
+        }
+    </script>
+
+</body>
+
+</html>

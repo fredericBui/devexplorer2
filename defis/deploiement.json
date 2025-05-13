@@ -1,0 +1,69 @@
+{
+  "Niveau 0 - SSH": [
+    {
+      "title": "Se connecter en ssh à une VM ou machine distante",
+      "concept": "Apprendre à établir une connexion sécurisée à distance avec SSH",
+      "resources": [],
+      "image_url": "https://placehold.co/400x400",
+      "description": "Votre mission si vous l'acceptez, est d'établir une connexion SSH sécurisée avec une machine distante ou une VM."
+    }
+  ],
+  "Niveau 1 - Docker": [
+    {
+      "title": "Déployer une image sur une VM locale",
+      "concept": "Découvrir le déploiement d'une image Docker sur une machine virtuelle locale",
+      "resources": [],
+      "image_url": "https://placehold.co/400x400",
+      "description": "Votre mission si vous l'acceptez, est de déployer l'image Docker `fredericeducentre/matrix` sur une machine virtuelle locale."
+    },
+    {
+      "title": "Déployer une image sur un cloud provider",
+      "concept": "Comprendre le déploiement d'une image Docker sur une machine distante dans le cloud",
+      "resources": [],
+      "image_url": "https://placehold.co/400x400",
+      "description": "Votre mission si vous l'acceptez, est de déployer l'image Docker `fredericeducentre/matrix` sur une machine distante dans le cloud."
+    },
+    {
+      "title": "Automatiser le déploiement d'une image via un script",
+      "concept": "Mettre en place un script shell pour automatiser le déploiement d'une image Docker sur une machine distante ou une VM local",
+      "resources": [],
+      "image_url": "https://placehold.co/400x400",
+      "description": "Votre mission si vous l'acceptez, est d’écrire un script permettant de déployer automatiquement `fredericeducentre/matrix`."
+    },
+    {
+      "title": "Déployer un backend et sa base de données",
+      "concept": "Déployer une application backend avec une base de données liée dans Docker",
+      "resources": [
+        "https://hub.docker.com/repository/docker/fredericbui/friendevent_backend/general"
+      ],
+      "image_url": "https://placehold.co/400x400",
+      "description": "Votre mission si vous l'acceptez, est de lancer l’image `friendevent_backend` avec sa base MySQL dans un environnement Docker."
+    },
+    {
+      "title": "Déployer une infrastructure",
+      "concept": "Déployer une architecture complète frontend + backend + base de données avec docker",
+      "resources": [
+        "https://hub.docker.com/repository/docker/fredericbui/friendevent_backend/general",
+        "https://hub.docker.com/repository/docker/fredericbui/friendevent_frontend/general"
+      ],
+      "image_url": "https://placehold.co/400x400",
+      "description": "Votre mission si vous l'acceptez, est de déployer une stack complète avec `friendevent_backend`, sa base MySQL et le frontend."
+    }
+  ],
+  "Niveau 3 - Docker & Jenkins": [
+    {
+      "title": "Créer une pipeline de déploiement continue dans jenkins pour déployer un front end",
+      "concept": "Configurer une CI/CD avec Jenkins pour automatiser les déploiements",
+      "resources": [],
+      "image_url": "https://placehold.co/400x400",
+      "description": "Votre mission si vous l'acceptez, est de configurer une pipeline Jenkins pour déployer automatiquement `fredericeducentre/matrix`."
+    },
+    {
+      "title": "Créer 2 pipelines de déploiement continue dans jenkins pour déployer l'infrastructure de friendevent",
+      "concept": "Automatiser le déploiement complet d'une infrastructure (frontend & backend) avec Jenkins",
+      "resources": [],
+      "image_url": "https://placehold.co/400x400",
+      "description": "Votre mission si vous l'acceptez, est de créer une pipeline Jenkins pour orchestrer tout le déploiement de l’infrastructure `friendevent` (frontend & backend)."
+    }
+  ]
+}
