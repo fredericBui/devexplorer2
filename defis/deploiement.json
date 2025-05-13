@@ -3,7 +3,7 @@
     {
       "title": "Se connecter en ssh à une VM ou machine distante",
       "concept": "Apprendre à établir une connexion sécurisée à distance avec SSH",
-      "resources": [],
+      "resources": ["https://doc.ubuntu-fr.org/ssh"],
       "image_url": "https://placehold.co/400x400",
       "description": "Votre mission si vous l'acceptez, est d'établir une connexion SSH sécurisée avec une machine distante ou une VM."
     }
@@ -12,21 +12,21 @@
     {
       "title": "Déployer une image sur une VM locale",
       "concept": "Découvrir le déploiement d'une image Docker sur une machine virtuelle locale",
-      "resources": [],
+      "resources": ["https://hub.docker.com/r/fredericeducentre/matrix"],
       "image_url": "https://placehold.co/400x400",
       "description": "Votre mission si vous l'acceptez, est de déployer l'image Docker `fredericeducentre/matrix` sur une machine virtuelle locale."
     },
     {
       "title": "Déployer une image sur un cloud provider",
       "concept": "Comprendre le déploiement d'une image Docker sur une machine distante dans le cloud",
-      "resources": [],
+      "resources": ["https://hub.docker.com/r/fredericeducentre/matrix"],
       "image_url": "https://placehold.co/400x400",
       "description": "Votre mission si vous l'acceptez, est de déployer l'image Docker `fredericeducentre/matrix` sur une machine distante dans le cloud."
     },
     {
       "title": "Automatiser le déploiement d'une image via un script",
       "concept": "Mettre en place un script shell pour automatiser le déploiement d'une image Docker sur une machine distante ou une VM local",
-      "resources": [],
+      "resources": ["https://hub.docker.com/r/fredericeducentre/matrix", "https://www.linuxtricks.fr/wiki/ssh-sshpass-la-connexion-ssh-par-mot-de-passe-non-interactive", "https://documentation.help/putty/plink-usage.html"],
       "image_url": "https://placehold.co/400x400",
       "description": "Votre mission si vous l'acceptez, est d’écrire un script permettant de déployer automatiquement `fredericeducentre/matrix`."
     },
