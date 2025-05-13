@@ -38,11 +38,28 @@
         img {
             width: 200px;
         }
+
+        #github-btn{
+            position: fixed;
+            right: 1em;
+        }
+
+        #github-btn img {
+            width: 50px;
+        }
+        
+        #github-btn:hover img {
+            transform: scale(1.1);
+        }
     </style>
 </head>
 
 <body>
-
+    <div id="github-btn">
+        <a href="https://github.com/fredericBui/devexplorer2" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/langfr-250px-GitHub_Invertocat_Logo.svg.png" alt="Github logo" srcset="">
+        </a>
+    </div>
     <h1>DevExplorer</h1>
     <select name="" id="" onchange="getData(this)">
         <option value="">Choisir un challenge</option>
