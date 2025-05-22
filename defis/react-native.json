@@ -86,6 +86,16 @@
             ],
             "image_url": "https://placehold.co/400x400",
             "description": "Votre mission si vous l'acceptez, créer une page qui change d'affichage en fonction des paramètres envoyé dans l'url"
+        },
+        {
+            "title": "Déployer son application sur Google Store grâce à EAS",
+            "concept": "Savoir déployer une application sur le store de google",
+            "resources": [
+                "https://docs.expo.dev/deploy/build-project/",
+                "https://play.google.com/console/developers/"
+            ],
+            "image_url": "https://placehold.co/400x400",
+            "description": "Votre mission si vous l'acceptez, déployer une application react native sur les store de google grâce à EAS. Il vous faudra souscrire à un compte google développeur."
         }
     ]
 }
