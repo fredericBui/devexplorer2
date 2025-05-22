@@ -1,0 +1,95 @@
+{
+  "Niveau 0 - JavaScript scripting": [
+    {
+      "title": "Setup JavaScript environment",
+      "concept": "Installation de Node.js",
+      "resources": [],
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Javascript-736400_960_720.png/640px-Javascript-736400_960_720.png",
+      "description": "Installer nodeJS pour executer du JavaScript en dehors du navigateur"
+    },
+    {
+      "title": "Hello world !",
+      "concept": "Utilisation de l'objet console et de la méthode log()",
+      "resources": [],
+      "image_url": "https://ucarecdn.com/66fc354e-3c1d-471b-a8c6-d0ca18d8dd54/",
+      "description": "Afficher 'Hello world !' dans la console"
+    },
+    {
+      "title": "Hello ...",
+      "concept": "Installation de librairies tierces avec npm et des variables",
+      "resources": [],
+      "image_url": "https://media.makeameme.org/created/whats-your-6of2q8.jpg",
+      "description": "Prompt l'utilisateur pour entrer son nom et afficher 'Hello {nom_utilisateur} !' dans la console"
+    },
+    {
+      "title": "Calculator",
+      "concept": "Création de fonctions et des opérateurs arithmétiques",
+      "resources": [],
+      "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMefI6Q5IboM2d4iM6PCXXzIIfSlClbIOHhg&s",
+      "description": "Créer les fonctionnalités d'une calculatrice avec ou sans entrées utilisateur"
+    },
+    {
+      "title": "Guess the number",
+      "concept": "Utilisation des conditions et des opérateurs de comparaison",
+      "resources": [],
+      "image_url": "https://media.makeameme.org/created/guess-a-number-5bee7de850.jpg",
+      "description": "Créer un jeu de devinette de nombre entre 1 et 100"
+    },
+    {
+      "title": "Brute force",
+      "concept": "Utilisation des boucles",
+      "resources": [],
+      "image_url": "https://i.imgflip.com/85q7wr.jpg",
+      "description": "Créer un programme qui génère toutes les combinaisons possibles d'un mot de passe"
+    },
+    {
+      "title": "Chinese Zodiac",
+      "concept": "Création de tableau",
+      "resources": [],
+      "image_url": "https://images.chinahighlights.com/allpicture/2021/09/f372e03de36e475b933aa81e.jpg",
+      "description": "Créer un programme qui affiche le signe astrologique chinois d'une personne en fonction de son année de naissance"
+    },
+    {
+      "title": "Jeu du pendu",
+      "concept": "Utilisation des boucles et manipulation de tableau",
+      "resources": [],
+      "image_url": "https://i.pinimg.com/236x/4d/32/ae/4d32ae12f0e7131a93574d41e8aeb603.jpg",
+      "description": "Créer le jeu du pendu"
+    },
+    {
+      "title": "URSSAF Calculator",
+      "concept": "Création de test unitaires avec Jest",
+      "resources": [],
+      "image_url": "https://leguidedelartiste.com/wp-content/uploads/2021/06/declaration-urssaf-illustration.jpg",
+      "description": "Créer une fonction qui calcul le reste suite au paiement de l'URSSAF et mettre en place un test unitaire"
+    },
+    {
+      "title": "Display the cheapest product of FakeStore API",
+      "concept": "Utilisation de l'API Fetch",
+      "resources": [],
+      "image_url": "https://i.kym-cdn.com/news_feeds/icons/mobile/000/031/333/4ac.jpg",
+      "description": "Récupérer les produits de l'API FakeStore et afficher le produit le moins cher"
+    },
+    {
+      "title": "Four stars product",
+      "concept": "Utilisation de l'API Fetch et de la méthode filter()",
+      "resources": [],
+      "image_url": "https://i.chzbgr.com/full/9000414208/h6C2F6672/perfect",
+      "description": "Afficher les produits de l'API FakeStore qui ont une note supérieure à 4 étoiles"
+    },
+    {
+      "title": "You're the Hero",
+      "concept": "Création d'objets et de méthodes",
+      "resources": [],
+      "image_url": "https://i.imgflip.com/4/5g0z94.jpg",
+      "description": "Créer un jeu de rôle textuel où le joueur doit faire des choix pour avancer dans l'histoire"
+    },
+    {
+      "title": "Email me",
+      "concept": "Nodemailer & mailtrap",
+      "resources": [],
+      "image_url": "https://rasa.io/wp-content/uploads/2022/05/rasaio_emailmemes_what-is-this-an-email-with-no-attachment.jpeg",
+      "description": "Créer un service d'envoi d'email avec Node.js et Nodemailer"
+    }
+  ]
+}
