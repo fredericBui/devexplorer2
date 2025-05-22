@@ -1,0 +1,91 @@
+{
+    "React native (développement d'application mobile)": [
+        {
+            "title": "Setup React Native environment",
+            "concept": "Savoir installer de Node.js & Expo Go. Vous pouvez également installer ngrok si besoin.",
+            "resources": [
+                "https://nodejs.org/en",
+                "https://docs.expo.dev/get-started/set-up-your-environment/",
+                "https://ngrok.com/"
+            ],
+            "image_url": "https://placehold.co/400x400",
+            "description": "Installer nodeJS & l'application Expo Go"
+        },
+        {
+            "title": "Démarrer un projet React Native avec Expo",
+            "concept": "Savoir créer un nouveau projet React native",
+            "resources": [
+                "https://reactnative.dev/docs/environment-setup",
+                "https://docs.expo.dev/get-started/start-developing/"
+            ],
+            "image_url": "https://placehold.co/400x400",
+            "description": "Votre mission si vous l'acceptez, créer un nouveau projet React Native et afficher l'application sur votre smartphone via Expo Go"
+        },
+        {
+            "title": "Mon premier écran",
+            "concept": "Réinitialiser un projet react native et créer son premier écran graĉe aux 'Core components'",
+            "resources": [
+                "https://reactnative.dev/docs/components-and-apis"
+            ],
+            "image_url": "https://placehold.co/400x400",
+            "description": "Votre mission si vous l'acceptez, réinitialiser le projet avec le script reset et créer son premier écran avec les composants de base (View, Text, Image, TextInput, ScrollView, StyleSheet)"
+        },
+        {
+            "title": "Navigation Stack avec Expo Router",
+            "concept": "Savoir naviguer d'un écran à un autre grâce aux composants Stack et Link d'Expo Router",
+            "resources": [
+                "https://docs.expo.dev/develop/file-based-routing/"
+            ],
+            "image_url": "https://placehold.co/400x400",
+            "description": "Votre mission si vous l'acceptez, créer 2 écrans et mettre en place la navigation entre elles"
+        },
+        {
+            "title": "Navigation Tabs avec Expo Router",
+            "concept": "Savoir mettre en place une barre de navigation grâce aux composants Tabs de Expo Router",
+            "resources": [
+                "https://docs.expo.dev/develop/file-based-routing/#tab-navigator"
+            ],
+            "image_url": "https://placehold.co/400x400",
+            "description": "Votre mission si vous l'acceptez, créer 3 écrans et mettre en place une barre de navigation"
+        },
+        {
+            "title": "Afficher une liste de produits provenant d'une API",
+            "concept": "Savoir utiliser une Flatlist, créer un composant et réaliser un fetch d'API",
+            "resources": [
+                "https://reactnative.dev/docs/flatlist",
+                "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch",
+                "https://fakestoreapi.com/"
+            ],
+            "image_url": "https://placehold.co/400x400",
+            "description": "Votre mission si vous l'acceptez, afficher les articles de fakestoreAPI ou l'API de votre choix, créer un composant pour chaque produit et les afficher dans une Flatlist"
+        },
+        {
+            "title": "Dark mode",
+            "concept": "Savoir utiliser l'affichage conditionnel ainsi que le composant Switch",
+            "resources": [
+                "https://reactnative.dev/docs/switch"
+            ],
+            "image_url": "https://placehold.co/400x400",
+            "description": "Votre mission si vous l'acceptez, passer en darkmode lorsque le switch est activé"
+        },
+        {
+            "title": "Library lover",
+            "concept": "Savoir ajouter et utiliser des librairies externes à son projet",
+            "resources": [
+                "https://reactnative.directory/",
+                "https://reactnative.dev/docs/libraries"
+            ],
+            "image_url": "https://placehold.co/400x400",
+            "description": "Votre mission si vous l'acceptez, choisir une librairie (ex: react-native-calendars) et l'implémenter dans un projet"
+        },
+        {
+            "title": "Créer une page de profil utilisateur",
+            "concept": "Savoir créer des écrans pour du routage dynamique et savoir utiliser useLocalSearchParams",
+            "resources": [
+                "https://docs.expo.dev/develop/dynamic-routes/"
+            ],
+            "image_url": "https://placehold.co/400x400",
+            "description": "Votre mission si vous l'acceptez, créer une page qui change d'affichage en fonction des paramètres envoyé dans l'url"
+        }
+    ]
+}
