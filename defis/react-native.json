@@ -88,6 +88,13 @@
             "description": " Votre mission : Créez une page de profil utilisateur dont le contenu varie selon les paramètres passés dans l’URL."
         },
         {
+            "title": "Créer un écran de connexion avec redirection vers une interface à onglets",
+            "concept": "Savoir rediriger un écran de connexion vers un écran avec barre de navigation.",
+            "resources": [],
+            "image_url": "https://placehold.co/400x400",
+            "description": "Votre mission : concevoir une page de connexion fonctionnelle qui, une fois les identifiants validés, redirige l’utilisateur vers un écran principal doté d’une barre de navigation à onglets."
+        },
+        {
             "title": "Déployer votre application sur le Google Play Store avec EAS",
             "concept": "Maîtriser le processus de déploiement d’une application avec Expo Application Services.",
             "resources": [
