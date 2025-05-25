@@ -3,42 +3,59 @@
     {
       "title": "Installer l'environnement de développement (VSCode & Live server)",
       "concept": "Préparer un environnement de développement HTML simple et efficace",
-      "resources": [],
+      "resources": [
+        "https://code.visualstudio.com/"
+      ],
       "image_url": "https://placehold.co/400x400",
       "description": "Votre mission si vous l'acceptez, est d'installer VSCode et l'extension Live Server pour coder en HTML avec un rafraîchissement automatique."
     },
     {
       "title": "Créer une page de mentions légales réutilisables",
       "concept": "Utilisation des titres et paragraphes pour structurer le contenu",
-      "resources": [],
+      "resources": [
+        "https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements",
+        "https://www.economie.gouv.fr/entreprises/site-internet-mentions-obligatoires#"
+      ],
       "image_url": "https://placehold.co/400x400",
       "description": "Votre mission si vous l'acceptez, est de créer une page de mentions légales bien structurée en HTML en utilisant les balises sémantiques."
     },
     {
       "title": "Créer une page de contact avec un formulaire respectant la vie privée",
       "concept": "Utilisation des balises de formulaire tout en respectant les bonnes pratiques de vie privée",
-      "resources": [],
+      "resources": [
+        "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/form",
+        "https://www.cnil.fr/fr/rgpd-en-pratique-communiquer-en-ligne"
+      ],
       "image_url": "https://placehold.co/400x400",
       "description": "Votre mission si vous l'acceptez, est de concevoir un formulaire de contact qui respecte les données personnelles des utilisateurs."
     },
     {
       "title": "Créer une page d'articles avec 3 sections",
       "concept": "Structuration du contenu avec section & article",
-      "resources": [],
+      "resources": [
+        "https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/section",
+        "https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/article"
+      ],
       "image_url": "https://placehold.co/400x400",
       "description": "Votre mission si vous l'acceptez, est de créer une page HTML avec trois sections contenant chacune un ou plusieurs articles."
     },
     {
       "title": "Créer une barre de navigation permettant de naviguer vers des sections",
       "concept": "Utilisation des ancres HTML et des identifiants",
-      "resources": [],
+      "resources": [
+        "https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/nav",
+        "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/a"
+      ],
       "image_url": "https://placehold.co/400x400",
       "description": "Votre mission si vous l'acceptez, est de concevoir une barre de navigation qui permet d’accéder à différentes sections de la page."
     },
     {
       "title": "Créer une page avec images et SEO parfait",
       "concept": "Optimisation du SEO avec balises meta, alt et Open Graph",
-      "resources": ["https://ogp.me/"],
+      "resources": [
+        "https://ogp.me/",
+        "https://developers.google.com/search/docs/appearance/google-images?hl=fr"
+      ],
       "image_url": "https://placehold.co/400x400",
       "description": "Votre mission si vous l'acceptez, est de créer une page HTML avec des images bien référencées et des balises meta adaptées au SEO et aux réseaux sociaux."
     }
@@ -47,67 +64,76 @@
     {
       "title": "Créer une gallery de produit",
       "concept": "Utilisation du CSS Grid pour afficher plusieurs produits",
-      "resources": [],
+      "resources": [
+        "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content",
+        "https://developer.mozilla.org/fr/docs/Web/CSS/CSS_grid_layout"
+      ],
       "image_url": "https://placehold.co/400x400",
       "description": "Votre mission si vous l'acceptez, est de créer une galerie de produits bien alignée grâce à un système de grille en CSS."
     },
     {
       "title": "Créer une bannière de landing page",
       "concept": "Utilisation du positionnement CSS pour une mise en page précise",
-      "resources": [],
+      "resources": [
+        "https://developer.mozilla.org/fr/docs/Web/CSS/position"
+      ],
       "image_url": "https://placehold.co/400x400",
       "description": "Votre mission si vous l'acceptez, est de concevoir une bannière d’accueil avec un positionnement parfait grâce à `position: absolute`."
     },
     {
       "title": "Créer une bannière vidéo",
       "concept": "Intégration de vidéos dans une page HTML",
-      "resources": [],
+      "resources": [
+        "https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/video"
+      ],
       "image_url": "https://placehold.co/400x400",
       "description": "Votre mission si vous l'acceptez, est d'ajouter une bannière vidéo responsive à votre page HTML."
     },
     {
       "title": "Créer une barre de navigation responsive",
       "concept": "Utilisation des media queries pour le responsive design",
-      "resources": [],
+      "resources": [
+        "https://developer.mozilla.org/fr/docs/Web/CSS/CSS_media_queries/Using_media_queries"
+      ],
       "image_url": "https://placehold.co/400x400",
       "description": "Votre mission si vous l'acceptez, est de rendre votre barre de navigation responsive pour mobile et desktop."
     },
     {
       "title": "Créer un bouton avec effet au survol",
       "concept": "Effets visuels avec la pseudo-classe `:hover`",
-      "resources": [],
+      "resources": [
+        "https://developer.mozilla.org/en-US/docs/Web/CSS/:hover"
+      ],
       "image_url": "https://placehold.co/400x400",
       "description": "Votre mission si vous l'acceptez, est de créer un bouton qui change d’apparence lorsqu’on passe la souris dessus."
     },
     {
-      "title": "Créer un effet parallax",
-      "concept": "Création d’un effet de profondeur avec le défilement",
-      "resources": [],
+      "title": "Créer un carrousel d'image",
+      "concept": "Utiliser les keyframes et animation",
+      "resources": ["https://developer.mozilla.org/fr/docs/Web/CSS/@keyframes","https://developer.mozilla.org/fr/docs/Web/CSS/animation"],
       "image_url": "https://placehold.co/400x400",
-      "description": "Votre mission si vous l'acceptez, est d’ajouter un effet parallax en CSS pour améliorer l’expérience visuelle."
+      "description": "Votre mission si vous l'acceptez, est de créer un carrousel qui permet de faire défiler des images automatiquement et de le stopper temporairement au survol d'une image."
     }
   ],
   "Niveau 2 - HTML, CSS & JS (DOM)": [
     {
       "title": "Créer une pop up avec un bouton",
       "concept": "Écoute d'événement et manipulation du DOM",
-      "resources": [],
+      "resources": [
+        "https://www.w3schools.com/tags/ev_onclick.asp"
+      ],
       "image_url": "https://placehold.co/400x400",
       "description": "Votre mission si vous l'acceptez, est de créer une pop-up qui s'affiche lorsque l'utilisateur clique sur un bouton."
     },
     {
-      "title": "Créer un carrousel d'image",
-      "concept": "Manipulation dynamique d’éléments HTML avec JavaScript",
-      "resources": [],
-      "image_url": "https://placehold.co/400x400",
-      "description": "Votre mission si vous l'acceptez, est de créer un carrousel qui permet de faire défiler des images automatiquement ou manuellement."
-    },
-    {
-      "title": "Afficher les articles de FakeStore API",
+      "title": "Afficher les articles de Dummy Json API",
       "concept": "Utilisation de fetch et affichage dynamique avec le DOM",
-      "resources": [],
+      "resources": [
+        "https://dummyjson.com/docs/products",
+        "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch"
+      ],
       "image_url": "https://placehold.co/400x400",
-      "description": "Votre mission si vous l'acceptez, est de récupérer les articles depuis l’API FakeStore et les afficher dans une galerie HTML."
+      "description": "Votre mission si vous l'acceptez, est de récupérer les articles depuis l’API Dummy Json et les afficher dans une galerie HTML."
     }
   ]
 }
