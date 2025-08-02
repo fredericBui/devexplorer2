@@ -1,0 +1,13 @@
+{
+  "Niveau 1 - Défi cybersécurité": [
+    {
+      "title": "Défi cybersécurité",
+      "concept": "Mettre en place un environnement pour développer des tests de cybersécurité",
+      "resources": [
+        "https://github.com/fredericBui/cybersecurite_web"      ],
+      "image_url": "https://placehold.co/400x400?text=PHPUnit",
+
+      "description": "Avant de commencer, vous devez installer les outils nécessaires pour développer des tests de cybersécurité. Une fois prêt, vous pourrez développer vos tests. Si vous êtes avancé, vous pouvez également configurer des outils supplémentaires pour améliorer votre environnement de test."
+    }
+  ]
+}
