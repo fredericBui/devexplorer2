@@ -14,7 +14,8 @@
       "title": "Écrire un test unitaire sur une fonction d'authentification",
       "concept": "Tester une fonction d'authentification pour s'assurer qu'elle fonctionne correctement.",
       "resources": [
-        "https://github.com/fredericBui/php_tests"
+        "https://github.com/fredericBui/php_tests",
+        "https://docs.phpunit.de/en/12.3/assertions.html"
       ],
       "image_url": "https://placehold.co/400x400?text=Test+Simple",
       "description": "Commencez par écrire un test unitaire pour la fonction d'authentification. Cela vous aidera à comprendre comment PHP Unit fonctionne et comment structurer vos tests."
