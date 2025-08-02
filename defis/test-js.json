@@ -1,0 +1,25 @@
+{
+  "Niveau 1 - Installer JEST ": [
+    {
+      "title": "Installer JEST",
+      "concept": "Mettre en place un environnement pour développer des tests avec JEST.",
+      "resources": [
+        "https://jestjs.io/docs/getting-started"
+      ],
+      "image_url": "https://placehold.co/400x400",
+      "description": "Avant de commencer, vous devez installer JEST dans votre projet. Une fois prêt, vous pourrez développer vos tests. Si vous êtes avancé, vous pouvez également configurer JEST avec d'autres frameworks."
+    }
+  ],
+  "Niveau 2 - Écrire un test unitaire sur une fonction d'authentification": [
+    {
+      "title": "Écrire un test unitaire sur une fonction d'authentification",
+      "concept": "Tester une fonction d'authentification pour s'assurer qu'elle fonctionne correctement.",
+      "resources": [
+        "https://github.com/fredericBui/js_test",
+        "https://jestjs.io/docs/expect"
+      ],
+      "image_url": "https://placehold.co/400x400?text=Test+Simple",
+      "description": "Commencez par écrire un test unitaire pour la fonction d'authentification. Cela vous aidera à comprendre comment JEST fonctionne et comment structurer vos tests."
+    }
+  ]
+}
