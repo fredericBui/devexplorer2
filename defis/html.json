@@ -134,6 +134,15 @@
       ],
       "image_url": "https://placehold.co/400x400",
       "description": "Votre mission si vous l'acceptez, est de récupérer les articles depuis l’API Dummy Json et les afficher dans une galerie HTML."
+    },
+    {
+      "title": "Créer une page de login qui permet de récupérer un jeton d'API",
+      "concept": "Utilisation de fetch avec une requête POST",
+      "resources": [
+        "https://dummyjson.com/docs/auth"
+      ],
+      "image_url": "https://placehold.co/400x400",
+      "description": "Votre mission si vous l'acceptez, est de créer une page de connexion qui permet de récupérer le jeton (token) de l'API d'authentification de Dummy JSON API."
     }
   ]
 }
