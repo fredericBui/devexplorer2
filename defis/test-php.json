@@ -9,7 +9,7 @@
       "description": "Avant de commencer, vous devez installer PHP Unit dans votre projet. Une fois prêt, vous pourrez développer vos tests. Si vous êtes avancé, vous pouvez également configurer PHP Unit avec d'autres frameworks."
     }
   ],
-  "Niveau 2 - Écrire un test unitaire sur une fonction d'authentification": [
+  "Niveau 2 - Test PHP": [
     {
       "title": "Écrire un test unitaire sur une fonction d'authentification",
       "concept": "Tester une fonction d'authentification pour s'assurer qu'elle fonctionne correctement.",
@@ -19,6 +19,24 @@
       ],
       "image_url": "https://placehold.co/400x400?text=Test+Simple",
       "description": "Commencez par écrire un test unitaire pour la fonction d'authentification. Cela vous aidera à comprendre comment PHP Unit fonctionne et comment structurer vos tests."
+    },
+    {
+      "title": "Écrire un test d'intégration",
+      "concept": "Tester l'intégration d'une fonction qui interagit avec une base de données.",
+      "resources": [
+        "https://docs.phpunit.de/en/12.3/assertions.html"
+      ],
+      "image_url": "https://placehold.co/400x400?text=Test+Intégration",
+      "description": "Écrivez un test d'intégration pour une fonction qui interagit avec une base de données. Cela vous permettra de vérifier que votre code fonctionne correctement avec la base de données."
+    },
+    {
+      "title": "Écrire un test fonctionnel (end-to-end)",
+      "concept": "Tester un scénario complet de l'application.",
+      "resources": [
+        "https://docs.phpunit.de/en/12.3/assertions.html"
+      ],
+      "image_url": "https://placehold.co/400x400?text=Test+Fonctionnel",
+      "description": "Écrivez un test fonctionnel qui couvre un scénario complet de l'application. De l'inscription à la réception d'un mail de confirmation."
     }
   ]
 }
