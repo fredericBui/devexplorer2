@@ -1,13 +1,131 @@
 {
-  "Niveau 1 - Défi cybersécurité": [
+  "Niveau 0 - Installation de l'environnement": [
     {
-      "title": "Défi cybersécurité",
-      "concept": "Mettre en place un environnement pour développer des tests de cybersécurité",
+      "title": "PHP, MySQL et cybersecurite_web project",
+      "concept": "Installer et configurer un environnement de développement PHP avec mySQL.",
       "resources": [
-        "https://github.com/fredericBui/cybersecurite_web"      ],
+        "https://www.php.net/manual/en/install.php",
+        "https://github.com/fredericBui/cybersecurite_web"
+      ],
       "image_url": "https://placehold.co/400x400?text=PHPUnit",
-
-      "description": "Avant de commencer, vous devez installer les outils nécessaires pour développer des tests de cybersécurité. Une fois prêt, vous pourrez développer vos tests. Si vous êtes avancé, vous pouvez également configurer des outils supplémentaires pour améliorer votre environnement de test."
+      "description": "Votre mission si vous l'acceptez, est d'installer PHP et mySQL sur votre machine et de télécharger localement le projet `cybersecurite_web`."
+    }
+  ],
+  "Niveau 1 - Défi cybersécurité PHP - ⚔️ Red Team (attaque)": [
+    {
+      "title": "Mission 1 : Injection SQL",
+      "concept": "Comprendre et exploiter une faille SQL Injection dans une application web",
+      "resources": [
+        "https://fr.wikipedia.org/wiki/Injection_SQL",
+        "https://owasp.org/www-community/attacks/SQL_Injection"
+      ],
+      "image_url": "https://placehold.co/400x400?text=SQL+Injection",
+      "description": "Votre mission si vous l'acceptez, lancer la mission 1 dans le projet cybersecurite_web à l'aide du Readme et essayer d'entrer sans avoir les identifiants."
+    },
+    {
+      "title": "Mission 2 : Attaque XSS",
+      "concept": "Comprendre et exploiter une faille Cross-Site Scripting (XSS)",
+      "resources": [
+        "https://fr.wikipedia.org/wiki/Cross-site_scripting",
+        "https://owasp.org/www-community/attacks/xss/"
+      ],
+      "image_url": "https://placehold.co/400x400?text=XSS",
+      "description": "Votre mission si vous l'acceptez, lancer la mission 2 et essayer de rediriger les utilisateurs vers un autre site."
+    },
+    {
+      "title": "Mission 3 : Attaque CSRF",
+      "concept": "Comprendre et exploiter une faille Cross-Site Request Forgery (CSRF)",
+      "resources": [
+        "https://fr.wikipedia.org/wiki/Cross-site_request_forgery",
+        "https://owasp.org/www-community/attacks/csrf"
+      ],
+      "image_url": "https://placehold.co/400x400?text=CSRF",
+      "description": "Votre mission si vous l'acceptez, lancer la mission 3 et essayer de modifier les données d'un utilisateur sans son consentement en lui partageant un lien url."
+    },
+    {
+      "title": "Mission 4 : Attaque par force brute",
+      "concept": "Comprendre et réaliser une attaque par force brute sur un formulaire de connexion",
+      "resources": [
+        "https://fr.wikipedia.org/wiki/Attaque_par_force_brute",
+        "https://owasp.org/www-community/attacks/Brute_force_attack"
+      ],
+      "image_url": "https://placehold.co/400x400?text=Force+Brute",
+      "description": "Votre mission si vous l'acceptez, lancer la mission 4 et deviner le mot de passe d'un utilisateur."
+    },
+    {
+      "title": "Mission 5 : Attaque d'information disclosure",
+      "concept": "Comprendre et exploiter une faille d'information disclosure dans une application web",
+      "resources": [
+        "https://www.wallarm.com/what/what-is-an-information-disclosure-examples-and-prevention",
+        "https://owasp.org/www-community/attacks/Path_Traversal"
+      ],
+      "image_url": "https://placehold.co/400x400?text=Information+Disclosure",
+      "description": "Votre mission si vous l'acceptez, lancer la mission 5 et récupérer le fichier .env."
+    },
+    {
+      "title": "Mission 6 : Attaque de type File Upload",
+      "concept": "Comprendre et exploiter une faille de type File Upload dans une application web",
+      "resources": [
+        "https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload"
+      ],
+      "image_url": "https://placehold.co/400x400?text=File+Upload",
+      "description": "Votre mission si vous l'acceptez, lancer la mission 6 et envoyer un fichier PHP malveillant."
+    }
+  ],
+  "Niveau 1 - Défi cybersécurité PHP - 🛡️ Blue Team (défense)": [
+    {
+      "title": "Mission 1 : Corriger une injection SQL",
+      "concept": "Apprendre à sécuriser une application contre les injections SQL",
+      "resources": [
+        "https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html"
+      ],
+      "image_url": "https://placehold.co/400x400?text=SQL+Injection",
+      "description": "Votre mission si vous l'acceptez, lancer la mission 1 et contrecarer les injections SQL en mettant en place des requêtes préparées."
+    },
+    {
+      "title": "Mission 2 : Corriger une attaque XSS",
+      "concept": "Apprendre à sécuriser une application contre les attaques XSS",
+      "resources": [
+        "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html"
+      ],
+      "image_url": "https://placehold.co/400x400?text=XSS",
+      "description": "Votre mission si vous l'acceptez, est de corriger une attaque XSS dans l'application web fournie."
+    },
+    {
+      "title": "Mission 3 : Corriger une attaque CSRF",
+      "concept": "Apprendre à sécuriser une application contre les attaques CSRF",
+      "resources": [
+        "https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html"
+      ],
+      "image_url": "https://placehold.co/400x400?text=CSRF",
+      "description": "Votre mission si vous l'acceptez, est de corriger une attaque CSRF dans l'application web fournie."
+    },
+    {
+      "title": "Mission 4 : Corriger une attaque par force brute",
+      "concept": "Apprendre à sécuriser un formulaire de connexion contre les attaques par force brute",
+      "resources": [
+        "https://owasp.org/www-community/controls/Blocking_Brute_Force_Attacks"
+      ],
+      "image_url": "https://placehold.co/400x400?text=Force+Brute",
+      "description": "Votre mission si vous l'acceptez, est de sécuriser le formulaire de connexion de l'application web fournie contre les attaques par force brute."
+    },
+    {
+      "title": "Mission 5 : Corriger une attaque d'information disclosure",
+      "concept": "Apprendre à sécuriser une application contre les fuites d'informations",
+      "resources": [
+        "https://www.freecodecamp.org/news/how-to-build-a-routing-system-in-php/"
+      ],
+      "image_url": "https://placehold.co/400x400?text=Information+Disclosure",
+      "description": "Votre mission si vous l'acceptez, est de corriger une faille d'information disclosure dans l'application web fournie."
+    },
+    {
+      "title": "Mission 6 : Corriger une attaque de type File Upload",
+      "concept": "Apprendre à sécuriser une application contre les failles de type File Upload",
+      "resources": [
+        "https://owasp.org/www-community/vulnerabilities/Unrestricted_File_Upload"
+      ],
+      "image_url": "https://placehold.co/400x400?text=File+Upload",
+      "description": "Votre mission si vous l'acceptez, est de corriger une faille de type File Upload dans l'application web fournie."
     }
   ]
 }
